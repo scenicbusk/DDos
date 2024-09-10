@@ -1,0 +1,78 @@
+UserID: 5373953045 | Time: 2024-09-08 10:06:20.860459 | Command: /bgmi | Target: 52.172.28.46 | Port: 12320 | Time: 900
+Username: @ItzBusk
+Target: 52.172.28.46
+Port: 12320
+Time: 900
+
+UserID: 5373953045 | Time: 2024-09-08 10:41:09.340397 | Command: /bgmi | Target: 20.235.20.156 | Port: 16239 | Time: 900
+Username: @ItzBusk
+Target: 20.235.20.156
+Port: 16239
+Time: 900
+
+UserID: 5373953045 | Time: 2024-09-08 11:47:08.890252 | Command: /bgmi | Target: 20.204.19.179 | Port: 11025 | Time: 900
+Username: @ItzBusk
+Target: 20.204.19.179
+Port: 11025
+Time: 900
+
+UserID: 5373953045 | Time: 2024-09-09 11:49:07.966762 | Command: /bgmi | Target: 20.198.104.235 | Port: 12563 | Time: 600
+Username: @ItzBusk
+Target: 20.198.104.235
+Port: 12563
+Time: 600
+
+UserID: 5373953045 | Time: 2024-09-09 11:51:13.779679 | Command: /bgmi | Target: 20.235.51.204 | Port: 28491 | Time: 900
+Username: @ItzBusk
+Target: 20.235.51.204
+Port: 28491
+Time: 900
+
+UserID: 5373953045 | Time: 2024-09-09 12:25:24.590014 | Command: /bgmi | Target: 4.213.66.124 | Port: 24962 | Time: 900
+Username: @ItzBusk
+Target: 4.213.66.124
+Port: 24962
+Time: 900
+
+UserID: 5373953045 | Time: 2024-09-09 12:58:32.300569 | Command: /bgmi | Target: 4.247.19.103 | Port: 14516 | Time: 900
+Username: @ItzBusk
+Target: 4.247.19.103
+Port: 14516
+Time: 900
+
+UserID: 5373953045 | Time: 2024-09-10 11:10:09.355099 | Command: /bgmi | Target: 4.213.68.231 | Port: 16972 | Time: 900
+Username: @ItzBusk
+Target: 4.213.68.231
+Port: 16972
+Time: 900
+
+UserID: 5373953045 | Time: 2024-09-10 11:35:01.469539 | Command: /bgmi | Target: 52.140.63.169 | Port: 18960 | Time: 900
+Username: @ItzBusk
+Target: 52.140.63.169
+Port: 18960
+Time: 900
+
+UserID: 5373953045 | Time: 2024-09-10 11:44:25.993466 | Command: /bgmi | Target: 20.235.151.158 | Port: 22723 | Time: 900
+Username: @ItzBusk
+Target: 20.235.151.158
+Port: 22723
+Time: 900
+
+UserID: 5373953045 | Time: 2024-09-10 12:06:14.779570 | Command: /bgmi | Target: 52.172.3.190 | Port: 10639 | Time: 900
+Username: @ItzBusk
+Target: 52.172.3.190
+Port: 10639
+Time: 900
+
+UserID: 5373953045 | Time: 2024-09-10 12:19:09.654218 | Command: /bgmi | Target: 20.235.22.12 | Port: 17964 | Time: 600
+Username: @ItzBusk
+Target: 20.235.22.12
+Port: 17964
+Time: 600
+
+UserID: 5373953045 | Time: 2024-09-10 12:45:14.686230 | Command: /bgmi | Target: 20.235.88.222 | Port: 11722 | Time: 600
+Username: @ItzBusk
+Target: 20.235.88.222
+Port: 11722
+Time: 600
+
