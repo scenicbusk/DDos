@@ -7,7 +7,7 @@ import datetime
 import os
 
 # insert your Telegram bot token here
-bot = telebot.TeleBot('7139240695:AAFqJqngpb-2MoNEy4t4M45bE-ouyU97fgU')
+bot = telebot.TeleBot('7139240695:AAE_3sIkCi6hcsASEi7NSrVqZwrfUMTyoug')
 
 # Admin user IDs
 admin_id = ["5373953045"]
@@ -208,7 +208,9 @@ def start_attack_reply(message, target, port, time):
     username = user_info.username if user_info.username else user_info.first_name
     
     response = f"{username}, 𝐀𝐓𝐓𝐀𝐂𝐊 𝐒𝐓𝐀𝐑𝐓𝐄𝐃.\n\n𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n𝐏𝐨𝐫𝐭: {port}\n𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐞𝐭𝐡𝐨𝐝: BGMI\nBy ItzBusk"
-    bot.reply_to(message, response)
+    # bot.reply_to(message, response)
+    sticker_file_id = 'CAACAgIAAxkBAAJ_Vmb-JwjCFH6MhG5ngujLRxIeCwnbAAIUAwACbbBCA3q2hKhRxek2NgQ'
+    bot.send_sticker(message.chat.id, sticker_file_id)
 
 # Dictionary to store the last time each user ran the /bgmi command
 bgmi_cooldown = {}
@@ -216,7 +218,7 @@ bgmi_cooldown = {}
 COOLDOWN_TIME =0
 
 # Handler for /bgmi command
-@bot.message_handler(commands=['bgmi'])
+@bot.message_handler(commands=['jarvis'])
 def handle_bgmi(message):
     user_id = str(message.chat.id)
     if user_id in allowed_user_ids:
@@ -249,7 +251,9 @@ def handle_bgmi(message):
     else:
         response = "You Are Not Authorized To Use This Command.\nBy ItzBusk"
 
-    bot.reply_to(message, response)
+    # bot.reply_to(message, response)
+    sticker_file_id = 'CAACAgIAAxkBAAJ_WWb-J1N-bKAfbT_gjS81ZI97BgjOAAIaAQACMNSdEfnuBojG8jcjNgQ'
+    bot.send_sticker(message.chat.id, sticker_file_id)
 
 
 
@@ -300,8 +304,8 @@ def show_help(message):
 def welcome_start(message):
     user_name = message.from_user.first_name
     response = f"Welcome to Your Home, {user_name}! Feel Free to Explore.\nTry To Run This Command : /help\nWelcome To The World's Best Ddos Bot\nBy ItzBusk"
-    bot.reply_to(message, response)
-    sticker_file_id = 'CAACAgIAAxkBAAJ_UGb-IaayccM7qlChS6T6_vvlpwZfAAIrAgACVp29Cp1dR4-5BfNBNgQ'
+    # bot.reply_to(message, response)
+    sticker_file_id = 'CAACAgIAAxkBAAJ_U2b-Jr7pUo40Zw2di_fUhvqeNWfsAAKAAwACbbBCA79y8vMGIzgeNgQ'
     bot.send_sticker(message.chat.id, sticker_file_id)
 
 

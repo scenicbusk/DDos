@@ -76,3 +76,9 @@ Target: 20.235.88.222
 Port: 11722
 Time: 600
 
+UserID: 5373953045 | Time: 2024-10-03 05:11:54.851985 | Command: /bgmi | Target: 112.55.6.84 | Port: 12324 | Time: 10
+Username: @ItzBusk
+Target: 112.55.6.84
+Port: 12324
+Time: 10
+
