@@ -301,6 +301,8 @@ def welcome_start(message):
     user_name = message.from_user.first_name
     response = f"Welcome to Your Home, {user_name}! Feel Free to Explore.\nTry To Run This Command : /help\nWelcome To The World's Best Ddos Bot\nBy ItzBusk"
     bot.reply_to(message, response)
+    sticker_file_id = 'CAACAgIAAxkBAAJ_UGb-IaayccM7qlChS6T6_vvlpwZfAAIrAgACVp29Cp1dR4-5BfNBNgQ'
+    bot.send_sticker(message.chat.id, sticker_file_id)
 
 
 @bot.message_handler(commands=['rules'])
